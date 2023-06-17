@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.btn {
+  all: unset;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  font-size: 14px;
+}
+.btn:hover {
+  border-bottom: 1px solid #ccc;
+}
+p {
+  font-size: 14px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 20px;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-area {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 5px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar ul li a {
+  font-size: 18px;
+}
+.navbar ul li a:hover {
+  border-bottom: 2px solid rgb(255, 251, 0);
+}
+.zone-area {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.zone-area .zone-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.zone-area .zone-content h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.zone-area .zone-img img {
+  border-radius: 4rem;
+}
+.establish-area {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.establish-area .establish-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  margin: 0 10px;
+}
+.establish-area .establish-img img {
+  margin-bottom: -8px;
+}
+.card-area {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.card {
+  max-width: 320px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.card .status {
+  padding-bottom: 10px;
+}
+.card .card-content {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card img {
+  width: 100%;
+}
+.bigcard-area {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.bigcard-area .bigcard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 15px;
+}
+.footer-area {
+  padding-bottom: 10px;
+}
+
+/* posts page style */
+
+.banner-area img {
+  width: 100%;
+}
+.post-area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.post-area h1 {
+  font-size: 2rem;
+}
+.post-area h2 {
+  font-size: 1.4rem;
+}
+.post-area h3 {
+  font-size: 1.2rem;
+}
+.author-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
