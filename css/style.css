@@ -157,3 +157,38 @@ h2 {
   align-items: center;
   gap: 10px;
 }
+/* responsive design */
+@media screen and (max-width: 786px) {
+  .navbar {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .zone-area {
+    flex-direction: column;
+  }
+  .zone-area .zone-content h2 {
+    font-size: 16px;
+  }
+  .zone-img img {
+    width: 80%;
+  }
+  .establish-area {
+    flex-direction: column;
+    width: 80%;
+  }
+  .establish-img img {
+    width: 80%;
+  }
+  .card-area {
+    flex-direction: column;
+  }
+  .bigcard-area {
+    flex-direction: column;
+    width: 70%;
+  }
+}
